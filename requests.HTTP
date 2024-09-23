@@ -1,0 +1,14 @@
+GET http://localhost:3000/posts
+
+###
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "title": "Tjena mitt bena",
+    "views": 100
+}
+
+###
+DELETE http://localhost:3000/posts/3639
+Content-Type: application/json
